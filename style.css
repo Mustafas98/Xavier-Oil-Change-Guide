@@ -363,7 +363,7 @@ body {
     margin: 0;
     width: 30px;
     height: 30px;
-    background-color: #1d1e31;
+    background-color: ##00011f;
     opacity: 1;
   }
   
@@ -373,7 +373,7 @@ body {
   /*end Slider section*/
   /* footer section start*/
 .footer_section {
-    background-color: #3c3a3f;
+    background-color: #00011f;
     padding: 20px;
   }
   
