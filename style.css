@@ -333,7 +333,7 @@ body {
   }
   
   .slider_section .carousel-control-prev {
-    background-color: #00011f;
+    background-color: #f2f2f7;
     top: 80px;
     background-image: url(../images/left-arrow.png);
     background-position: 14px center;
@@ -368,7 +368,7 @@ body {
   }
   
   .slider_section .carousel-indicators li.active {
-    background-color: #37353a;
+    background-color: #b6b2bb;
   }
   /*end Slider section*/
   /* footer section start*/
