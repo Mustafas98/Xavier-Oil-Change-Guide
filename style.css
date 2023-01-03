@@ -58,7 +58,7 @@ body {
   }
   /*end body*/
 /*header section*/
-.Xavier_header {
+.hero_area {
     height: 100vh;
   position: relative;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f2f7fd), color-stop(45%, #1d1e31));
