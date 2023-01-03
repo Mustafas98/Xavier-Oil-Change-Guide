@@ -231,7 +231,7 @@ body {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
-    color: #8547ca;
+    color: #463d52;
     margin-top: 5px;
   }
   
@@ -296,7 +296,7 @@ body {
   .slider_section .detail-box h1 {
     text-transform: uppercase;
     font-weight: bold;
-    color: #8547ca;
+    color: #37343a;
     font-size: 5.5rem;
   }
   
@@ -368,12 +368,12 @@ body {
   }
   
   .slider_section .carousel-indicators li.active {
-    background-color: #8547ca;
+    background-color: #37353a;
   }
   /*end Slider section*/
   /* footer section start*/
 .footer_section {
-    background-color: #8547ca;
+    background-color: #3c3a3f;
     padding: 20px;
   }
   
