@@ -296,24 +296,24 @@ body {
   .slider_section .detail-box h1 {
     text-transform: uppercase;
     font-weight: bold;
-    color: #37343a;
+    color: #00011f;
     font-size: 5.5rem;
   }
   
   .slider_section .detail-box a {
     display: inline-block;
     padding: 10px 60px;
-    background-color: #1d1e31;
+    background-color: #00011f;
     color: #fefdfc;
     border-radius: 0;
-    border: 1px solid #1d1e31;
+    border: 1px solid #00011f;
     text-transform: uppercase;
     margin-top: 35px;
   }
   
   .slider_section .detail-box a:hover {
     background-color: transparent;
-    color: #1d1e31;
+    color: #00011f;
   }
   
   .slider_section .img-box img {
@@ -333,7 +333,7 @@ body {
   }
   
   .slider_section .carousel-control-prev {
-    background-color: #1d1e31;
+    background-color: #00011f;
     top: 80px;
     background-image: url(../images/left-arrow.png);
     background-position: 14px center;
@@ -363,7 +363,7 @@ body {
     margin: 0;
     width: 30px;
     height: 30px;
-    background-color: ##00011f;
+    background-color: #00011f;
     opacity: 1;
   }
   
