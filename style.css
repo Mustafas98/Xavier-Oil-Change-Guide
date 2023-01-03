@@ -1,3 +1,62 @@
+/*body start*/
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+  }
+  
+  .layout_margin {
+    margin: 90px 0;
+  }
+  
+  .layout_padding {
+    padding: 90px 0;
+  }
+  
+  .layout_padding2 {
+    padding: 45px 0;
+  }
+  
+  .layout_padding2-top {
+    padding-top: 45px;
+  }
+  
+  .layout_padding2-bottom {
+    padding-bottom: 45px;
+  }
+  
+  .layout_padding-top {
+    padding-top: 90px;
+  }
+  
+  .layout_padding-bottom {
+    padding-bottom: 90px;
+  }
+  
+  .heading_container h2 {
+    font-weight: bold;
+    color: #1d1e31;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .heading_container h2::before {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #8547ca;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 0;
+  }
+  
+  .hero_next_section-margin {
+    margin-top: 100px;
+  }
+  /*end body*/
 /*header section*/
 .Xavier_header {
     height: 100vh;
