@@ -165,7 +165,7 @@ body {
     padding: 0px;
     text-decoration: none;
     font-size: 22px;
-    color: #f1f1f1;
+    color: #4e4d52;
     display: block;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -335,7 +335,7 @@ body {
   .slider_section .carousel-control-prev {
     background-color: #f2f2f7;
     top: 80px;
-    background-image: url(../images/left-arrow.png);
+    background-image: url(left-arrow.png);
     background-position: 14px center;
   }
   
@@ -343,7 +343,7 @@ body {
     background-color: #f2f7fd;
     top: initial;
     bottom: 150px;
-    background-image: url(../images/right-arrow.png);
+    background-image: url(right-arrow.png);
     background-position: 35px center;
   }
   
