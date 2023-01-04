@@ -335,7 +335,7 @@ body {
   .slider_section .carousel-control-prev {
     background-color: #1d1e31;
     top: 80px;
-    background-image: url(left-arrow.png);
+    background-image: url(../images/left-arrow.png);
     background-position: 14px center;
   }
   
@@ -343,7 +343,7 @@ body {
     background-color: #f2f7fd;
     top: initial;
     bottom: 150px;
-    background-image: url(right-arrow.png);
+    background-image: url(../images/right-arrow.png);
     background-position: 35px center;
   }
   
