@@ -57,6 +57,7 @@
     </div>
   </header>
   <!-- end header section -->
+
   <section class="vh-100 gradient-custom">
     <div class="container py-5 h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
@@ -66,31 +67,46 @@
   
               <div class="mb-md-5 mt-md-4 pb-5">
   
-                <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
-                <p class="text-white-50 mb-5">Please enter your login and password!</p>
-  
+                <h2 class="fw-bold mb-2 text-uppercase">Contact us</h2>
+                <p class="text-white-50 mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                  a matter of hours to help you.</p>
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST"></form>
                 <div class="form-outline form-white mb-4">
-                  <input type="email" id="typeEmailX" class="form-control form-control-lg" />
-                  <label class="form-label" for="typeEmailX">Email</label>
-                </div>
+                        <input type="text" id="name" name="name" class="form-control ">
+                          <label for="name" class="">Your name</label>
+          
+                  </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+      
+              </div>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" id="subject" name="subject" class="form-control">
+                    <label for="subject" class="">Subject</label>
   
-                <div class="form-outline form-white mb-4">
-                  <input type="password" id="typePasswordX" class="form-control form-control-lg" />
-                  <label class="form-label" for="typePasswordX">Password</label>
-                </div>
-  
-                <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
-  
-                <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+                  </div>
+
+                
+                <div class="col-md-12">
+
+                  <div class="md-form">
+                      <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                      <label for="message">Your message</label>
+                  </div>
+                  
+                  <button href="#" type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+                  
+                  <div class="d-flex justify-content-between mt-4">
+                    <p class="mb-0">Already registered? <a href="login.html" class="text-white-50 fw-bold">Login</a>
+                    </p>
+                  </div>
   
                 
   
               </div>
   
-              <div>
-                <p class="mb-0">Don't have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
-                </p>
-              </div>
+              
   
             </div>
           </div>
@@ -98,6 +114,7 @@
       </div>
     </div>
   </section>
+ 
 
     <!-- footer section Starts -->
     <div class="social_container">
