@@ -132,32 +132,37 @@
         </body>
     </head>
 </html>
-<?php
+<?php  
+  
+$dbcon=mysqli_connect("localhost","root","");  
+mysqli_select_db($dbcon,"xavier");    
+  
+if(isset($_POST['submit']))  
+{  
 
-echo "this is a test file";
-$email = $_POST['email'];
-$password = $_POST['password'];
-
-// Data connnection here 
-$con = new mysqli("localshot", "root", "test");
-if($con->connect_error)
-{
-	die("failed to coonect :" .$con->connect_error);
-	
-} else {
-	
-	$stmt = $con->prepare("select * from registration where email= ? " )
-		$stmt->bind_param("s", $email);
-	$stmt->execute();
-	$stmt_result = $stmt->get_result();
-	if($stmt_result->num_rows >0)
-	{
-		$data = $stmt_result->fetch_assoc();
-		if($data['password']===$password) {
-			echo "<h2> Login Successful</h2>";
-	} else { echo"<h2> Invalid Email or passowrd</h2>";
-		   }
+    $email=$_POST['email'];  
+    $password=$_POST['password'];  
+  
+    $check_user="select * from user WHERE uname='$email' AND pass='$password'";  
+  
+    $run=mysqli_query($dbcon,$check_user);  
+  
+     if(mysqli_num_rows($run) )  
+    {  
+session_start(); 
+        $_SESSION['email']=$email;//here session is used and value of $email store in $_SESSION.  
+        echo "<script>window.open('index.php','_self')</script>";  
+			
+  
+    }  
+    else  
+    { 
+            
+      echo "<script>alert('Username or password is incorrect!')</script>";  
+    }  
 }
-
-
-?>
+else{
+	
+	  
+}	
+?> 
