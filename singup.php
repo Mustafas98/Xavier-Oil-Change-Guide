@@ -32,7 +32,7 @@
  <header class="header_section">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <span>
             Xavier
           </span>
@@ -48,10 +48,10 @@
           </div>
           <div id="myNav" class="overlay">
             <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href=".html">GUIDELINES</a>
-                <a href="">FEATURE</a>
-                <a href="contact.html">CONTACT US</a>
+            <a href="index.php">HOME</a>
+                <a href="guidelines.php">GUIDELINES</a>
+                <a href="login.php">LOGIN</a>
+                <a href="contact.php">CONTACT US</a>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@
               </div>
   
               <div>
-                <p class="mb-0">Already registered? <a href="login.html" class="text-white-50 fw-bold">Login</a>
+                <p class="mb-0">Already registered? <a href="login.php" class="text-white-50 fw-bold">Login</a>
                 </p>
               </div>
   
