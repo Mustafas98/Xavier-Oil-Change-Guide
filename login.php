@@ -47,10 +47,10 @@
           </div>
           <div id="myNav" class="overlay">
             <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href=".html">GUIDELINES</a>
-                <a href="">FEATURE</a>
-                <a href="contact.html">CONTACT US</a>
+            <a href="index.php">HOME</a>
+                <a href="guidelines.php">GUIDELINES</a>
+                <a href="login.php">LOGIN</a>
+                <a href="contact.php">CONTACT US</a>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
               </div>
   
               <div>
-                <p class="mb-0">Don't have an account? <a href="singup.html" class="text-white-50 fw-bold">Sign Up</a>
+                <p class="mb-0">Don't have an account? <a href="singup.php" class="text-white-50 fw-bold">Sign Up</a>
                 </p>
               </div>
   
