@@ -81,8 +81,8 @@
       
                       <button href="#" class="btn btn-outline-light btn-lg px-5">Reset password</button>
                       <div class="d-flex justify-content-between mt-4">
-                          <a class="text-white-50 fw-bold" href="login.html">LOGIN</a>
-                          <a class="text-white-50 fw-bold" href="singup.html">SINGUP</a>
+                          <a class="text-white-50 fw-bold" href="login.php">LOGIN</a>
+                          <a class="text-white-50 fw-bold" href="singup.php">SINGUP</a>
                       </div>
       
                     
