@@ -48,10 +48,10 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="feature.html">FEATURE</a>
-                <a href="contact.html">CONTACT US</a>
+              <a href="index.php">HOME</a>
+                <a href="guidelines.php">GUIDELINES</a>
+                <a href="login.php">LOGIN</a>
+                <a href="contact.php">CONTACT US</a>
               </div>
             </div>
           </div>
