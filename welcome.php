@@ -79,7 +79,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               <div class="mb-md-5 mt-md-4 pb-5">
                  <h2 class="my-5">Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h2>
                     <p>
-                <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
+                <a href="reset-password.php" class="btn btn-warning">Change Your Password</a>
                 <a href="logout.php" class="btn btn-danger ml-3">Sign Out of Your Account</a>
                  </p>
               </div>
