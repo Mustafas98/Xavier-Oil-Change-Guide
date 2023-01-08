@@ -23,7 +23,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
 
-    <title>OIL GUIDE INDEX</title>
+    <title>Home</title>
 
 </head>
 <body>
@@ -49,8 +49,7 @@
             <div id="myNav" class="overlay">
               <div class="overlay-content">
               <a href="index.php">HOME</a>
-                <a href="guidelines.php">GUIDELINES</a>
-                <a href="login.php">LOGIN</a>
+                <a href="login.php">GUIDELINES</a>
                 <a href="contact.php">CONTACT US</a>
               </div>
             </div>
@@ -76,8 +75,8 @@
 		oil by yourself 
               </h1>
               <div>
-                <a href="">
-                  Read More
+                <a href="login.php">
+                  GUIDELINES
                 </a>
               </div>
             </div>
@@ -121,25 +120,7 @@
     <!-- end slider section -->
     <!-- footer section Starts -->
     <section>
-    <div class="social_container">
-
-      <div class="social-box">
-        <a href="">
-          <img src="images/fb.png" alt="">
-        </a>
-
-        <a href="">
-          <img src="images/twitter.png" alt="">
-        </a>
-        <a href="">
-          <img src="images/linkedin.png" alt="">
-        </a>
-        <a href="">
-          <img src="images/instagram.png" alt="">
-        </a>
-      </div>
-    </div>
-  </div>
+    
 </section>
     <section class="container-fluid footer_section">
         <p>
