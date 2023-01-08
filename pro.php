@@ -98,7 +98,7 @@ if (!$success) {
                                         </b>. Welcome to our site.</h2>
             
                                     <p>
-                                        <a href="index1.php" class="btn btn-primary">Home</a>
+                                        <a href="index.php" class="btn btn-primary">Home</a>
                                     </p>
                                 </div>
                             </div>
