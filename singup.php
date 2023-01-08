@@ -145,8 +145,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           <div id="myNav" class="overlay">
             <div class="overlay-content">
             <a href="index.php">HOME</a>
-                <a href="guidelines.php">GUIDELINES</a>
-                <a href="login.php">LOGIN</a>
+                <a href="login.php">GUIDELINES</a>
+              
                 <a href="contact.php">CONTACT US</a>
             </div>
           </div>
@@ -198,25 +198,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   </section>
   <!-- footer section Starts -->
   <section>
-    <div class="social_container">
-
-      <div class="social-box">
-        <a href="">
-          <img src="images/fb.png" alt="">
-        </a>
-
-        <a href="">
-          <img src="images/twitter.png" alt="">
-        </a>
-        <a href="">
-          <img src="images/linkedin.png" alt="">
-        </a>
-        <a href="">
-          <img src="images/instagram.png" alt="">
-        </a>
-      </div>
-    </div>
-  </div>
+ 
 </section>
     <section class="container-fluid footer_section">
         <p>
