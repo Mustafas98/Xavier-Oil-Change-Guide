@@ -20,7 +20,7 @@
   <link href="css/bootsrap.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  
 
 
     <title>Home</title>
@@ -32,7 +32,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.php">
+          <a class="navbar-brand" href="index.html">
             <span>
               Xavier
             </span>
